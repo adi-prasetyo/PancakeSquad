@@ -68,4 +68,5 @@ for x in range(4420, 10000):
 
     df.loc[x, 'Price (BNB)'] = price
     
-    #sleep(randint(5,10))
+    #there's often a random timeout, dont know if this random wait will fix it
+    sleep(randint(5,10))
